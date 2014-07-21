@@ -46,7 +46,7 @@ resume() {
 }
 next() {
 	# kills pifm, and that makes pifmplay continue to the next item in list (if there is any)
-	pkill pifm
+	pkill '^pifm$'
 }
 stop() {
 	# slaughers pifmplay (and everything that goes with it)
